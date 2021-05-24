@@ -63,3 +63,93 @@ element.class | p.intro | Selects only <p> elements with class "intro"
 * | * | Selects all elements
 element | p | Selects all <p> elements
 element, element, ... | div, p | Selects all <div> elements and all <p> elements 
+
+### Three Ways to Insert CSS:
+There are three ways of inserting a style sheet:
+* External CSS
+* Internal CSS
+* Inline CSS
+
+### External CSS:
+* With an external style sheet, we can change the look of an entire website by changing just one file!
+* Each HTML page must include a reference to the external style sheet file inside the `<link>` element, inside the head section.
+* An external style sheet can be written in any text editor, and must be saved with .css extension.
+* The external .css file should not contain any HTML tags.
+* >Warning: We don't need to add a space between the property value and the unit (such as `margin-left: 20 px;`).
+The correct way is: `margin-left:20px;`
+* Example
+```
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+```
+
+### Internal CSS:
+* An internal style sheet may be used if one single HTML page has a unique style.
+* The internal style is defined inside the `<style>` element, inside the head section.
+* Example: `mystyle.css` is an external css file.
+```<head>
+<style>
+body {
+  background-color: linen;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40px;
+}
+</style>
+</head>
+```
+
+### Inline CSS:
+* An inline style may be used to apply a unique style for a single element.
+* To use inline styles, add the `style` attribute to the relevant element. The `style` attribute can contain any CSS property.
+* An inline style loses many of the advantages of a style sheet (by mixing content with presentation). We should use this method sparingly.
+* Example:
+```
+<body>
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+</body>
+```
+
+### Multiple Style Sheets:
+* **If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used.**
+* Example:
+1. We assume that and external style sheet has the following style for `<h1>` element
+```
+h1 {
+  color: navy;
+}
+```
+2. Then we assume that an internal style sheet also has the following style for the `<h1>` element:
+```
+h1 {
+  color: orange;
+}
+```
+
+3. If the internal style is defined after the link to the external style sheet, the `<h1>` elements will be "orange":
+```
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+h1 {
+  color: orange;
+}
+</style>
+</head>
+```
+
+4. If the internal style is defined before the link to the external style sheet, the `<h1>` elements will be "navy":
+```
+<head>
+<style>
+h1 {
+  color: orange;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+```
