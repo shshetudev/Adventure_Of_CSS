@@ -153,3 +153,28 @@ h1 {
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 ```
+### Cascading Order:
+1. Inline style.
+2. External and Internal style sheets.
+3. Browser default.
+
+### CSS Comments:
+* CSS comments are not displayed in the browser, but they can help document our source code.
+* Comments are used to explain the code, and may help when we edit the source code at a later date.
+* Commnets are ignored by browsers.
+* A CSS comment is placed inside the `<style>` element, and starts with `/*` and ends with `*/`
+
+### CSS Colors:
+Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+### RGB Value:
+* In CSS, a color can be specified as an RGB value, using this formula:
+rgb(red, green, blue)
+  * Each parameter defines the intensity of the color between 0 and 255.
+  * For example, 
+    * `rgb(255, 0, 0)` is displayed as red, because red is set to its highest value(255), and the others are set to 0.
+    * To display black, we set all color parameters to 0, like this: `rgb(0, 0, 0)`.
+    * To display white, we set all color parameters to 255, like this: `rgb(255, 255, 255)`.
+    * Shades of gray are often defined using equal values for all the 3 light sources.
+  
+  

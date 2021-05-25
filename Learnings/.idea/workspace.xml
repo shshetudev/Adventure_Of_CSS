@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb2b2057-9c13-41a7-b65e-32e19acc9f9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Adventure_Of_CSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Learnings.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/2-ways-to-run-css/1_external_css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/2-ways-to-run-css/2_internal_css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/2-ways-to-run-css/3_inline_css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/2-ways-to-run-css/4_multiple_css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/2-ways-to-run-css/mystyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS_Begineer/Code/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Begineer/Documentation/CSS_Beginner_README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS_Begineer/Documentation/1_what_is_css.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3-comments/html-css-comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3.1-colors/1_color_with_names.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3.1-colors/2_background_color_for_text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3.1-colors/3_text_color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3.1-colors/4_css_border_color.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS_Begineer/Code/3.1-colors/5_rgb_colors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS_Begineer/Documentation/CSS_Beginner_README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CSS_Begineer/Documentation/CSS_Beginner_README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,25 +50,29 @@
       <recent name="$PROJECT_DIR$/CSS_Begineer/Documentation" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.4_multiple_css.html">
-    <configuration name="1_external_css.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/2-ways-to-run-css/1_external_css.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.5_rgb_colors.html">
+    <configuration name="1_color_with_names.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/3.1-colors/1_color_with_names.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="2_internal_css.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/2-ways-to-run-css/2_internal_css.html" useBuiltInWebServerPort="true">
+    <configuration name="2_background_color_for_text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/3.1-colors/2_background_color_for_text.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="3_inline_css.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/2-ways-to-run-css/3_inline_css.html" useBuiltInWebServerPort="true">
+    <configuration name="3_text_color.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/3.1-colors/3_text_color.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="4_multiple_css.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/2-ways-to-run-css/4_multiple_css.html" useBuiltInWebServerPort="true">
+    <configuration name="4_css_border_color.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/3.1-colors/4_css_border_color.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="5_rgb_colors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learnings/CSS_Begineer/Code/3.1-colors/5_rgb_colors.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.4_multiple_css.html" />
-        <item itemvalue="JavaScript Debug.3_inline_css.html" />
-        <item itemvalue="JavaScript Debug.2_internal_css.html" />
-        <item itemvalue="JavaScript Debug.1_external_css.html" />
+        <item itemvalue="JavaScript Debug.5_rgb_colors.html" />
+        <item itemvalue="JavaScript Debug.4_css_border_color.html" />
+        <item itemvalue="JavaScript Debug.3_text_color.html" />
+        <item itemvalue="JavaScript Debug.2_background_color_for_text.html" />
+        <item itemvalue="JavaScript Debug.1_color_with_names.html" />
       </list>
     </recent_temporary>
   </component>
@@ -88,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621867880478</updated>
       <workItem from="1621867881719" duration="3034000" />
+      <workItem from="1621911316938" duration="3233000" />
     </task>
     <servers />
   </component>
@@ -104,6 +102,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
